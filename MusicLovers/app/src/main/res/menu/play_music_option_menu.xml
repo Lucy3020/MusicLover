@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--DONE-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_to_playlist_PlayMusic"
+        android:enabled="true"
+        android:title="Add to a Playlist..."/>
+    <item
+        android:id="@+id/show_album"
+        android:enabled="true"
+        android:title="Show album"/>
+    <item
+        android:id="@+id/go_to_artist"
+        android:enabled="true"
+        android:title="Go to Artist"/>
+    <item
+        android:id="@+id/sleep_timer"
+        android:enabled="true"
+        android:title="Sleep Timer">
+        <menu>
+            <item android:id="@+id/timer_15"
+                android:title="15 Minutes" />
+            <item android:id="@+id/timer_30"
+                android:title="30 Minutes" />
+            <item android:id="@+id/timer_45"
+                android:title="45 Minutes" />
+            <item android:id="@+id/timer_1"
+                android:title="One Hour" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/like"
+        android:enabled="true"
+        android:title="Like"/>
+</menu>
